@@ -1,0 +1,13 @@
+@import url(http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css);
+@import url(http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css);
+
+*{
+	font-size: 15px;
+	display: block;
+}
+
+.text-hello{
+	background-color: #BBB5B5;
+	display: none;
+	margin: 15%;
+}

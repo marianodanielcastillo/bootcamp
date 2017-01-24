@@ -1,0 +1,652 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fondo",
+				"fondo1"
+			],
+			[
+				"po",
+				"posicion2"
+			],
+			[
+				"posicion",
+				"posicion1"
+			],
+			[
+				"des",
+				"desplazar2"
+			],
+			[
+				"pos",
+				"pos-a	position: absolute;"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"la",
+				"label"
+			],
+			[
+				"ml",
+				"ml-a	margin-left: auto;"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"bs",
+				"box-shadow"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"q",
+				"querySelectorAll"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"script",
+				"SCRIPT"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"fz",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"hea",
+				"header-text"
+			],
+			[
+				"fade",
+				"fadeToggle	.fadeToggle()"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"header",
+				"header-text"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"i",
+				"italic"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "---------------------------------------------------------------------------------------------------------------------------------------------------------\n-Client Auths-\n\ndt setClientAuths -num 1\ndt setServiceLevel -num 2\n---------------------------------------------------------------------------------------------------------------------------------------------------------\n-SHEF Auth-\n \ndt shef -cmd onShef\ndt shef -cmd onGetPlayList\ndt shef -cmd onGetTuned\ndt shef -cmd userOnGetPlayList\ndt shef -cmd userOnGetTuned\n\n-SHEF getSettings-\n\ndt shef -cmd getSettings\n\n---------------------------------------------------------------------------------------------------------------------------------------------------------\n-Download Log via linux- \n\n/root/download-log.sh 0 -a -u\n\n/root/download-log.sh 3 lhr26_log /var/viewer\n\n/root/download-log.sh 3 lh26_log2 /var/tmp\n\n/root/download-log.sh 3 \"nombre\" \"ruta\"\n\n---------------------------------------------------------------------------------------------------------------------------------------------------------\n-LLENAR EL DISCO DE PORNO- \n\nwhile true; do dt recordOneShot -channel 1124; sleep 1;dt stopRecording -index 0; sleep1;done\n\n---------------------------------------------------------------------------------------------------------------------------------------------------------\nINSTALAR PLUSHINS \n\n/root/install_plugin.sh -t /var/network\n\n---------------------------------------------------------------------------------------------------------------------------------------------------------\n\nREINICIAR NETWORK\n\ndt resetNetworkSetupAll\n---------------------------------------------------------------------------------------------------------------------------------------------------------\nACTIVAR TRAILERS \n\ndt setAuthorization -internetStreaming true\n\n---------------------------------------------------------------------------------------------------------------------------------------------------------\nVER QUE OSD DEL MOMENTO \n\ntail -f /var/viewer/messages.log | grep -i 'showOSD'\n\n---------------------------------------------------------------------------------------------------------------------------------------------------------\nPELICULAS EN PUSH \n\ndt library –detail |grep –i ‘network’\n\n---------------------------------------------------------------------------------------------------------------------------------------------------------\n\nCAPTURAR PANTALLA \n\n\n/var/./screenshot.sh\n\n---------------------------------------------------------------------------------------------------------------------------------------------------------\nREINICIO CON CONFIGURACION GUIADA \n\ndt setupComplete -set false\n\n\nflash -noheader 192.168.1.103:hddvr_tmm_lhr26_rel_dtvcm_v1b1831_20170118_v1b2532_0x7727.squashfs flash1.rootfs\n\nflash -noheader 192.168.1.103:vmlinuz-2.6.18.8-tmm-lhr26-160802.mips-7335bx_stripped.lzma flash1.kernel\n\n\n\nboot -lzma -elf flash1.kernel: \"root=/dev/mtdblock2 ro rootfstype=squashfs resmem=75m@155m(cdi) resmem=26m@230m(grmem)",
+			"file": "/C/Users/mariano.castillo/Desktop/LH44.textile",
+			"file_size": 3106,
+			"file_write_time": 131286158437508499,
+			"settings":
+			{
+				"buffer_size": 3021,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"jque",
+				"Snippet: A basic jQuery selector"
+			],
+			[
+				"Snippet: ",
+				"Snippet: jQuery ready function"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mariano.castillo/Desktop/LH26.textile",
+		"/C/Users/mariano.castillo/Downloads/inventio-lite-master/core/controller/Database.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/layout.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/model.xml",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/mariano.castillo/Downloads/inventio-lite-master/README.md",
+		"/C/Users/mariano.castillo/Downloads/php_stock_zip/php_stock_zip/php_stock/ewcfg12.php",
+		"/C/Users/mariano.castillo/Downloads/php_stock_zip/php_stock_zip/php_stock/php_stockdb.php",
+		"/C/Users/mariano.castillo/Downloads/inventory/inventory/inventory/db.php",
+		"/C/Users/mariano.castillo/Downloads/php_stock_zip/php_stock_zip/php_stock/ewdbhelper12.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/ewcfg11.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/index 4.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/UtilMercadoPago.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/custompayment.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/index 3.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/standardreturn.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/mercadopago.php",
+		"/C/Users/mariano.castillo/Downloads/cart-prestashop-master/cart-prestashop-master/README.md",
+		"/C/Users/mariano.castillo/Downloads/MERCADOPAGO/crack.php",
+		"/C/Users/mariano.castillo/Desktop/checkout.tpl",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/config_es.xml",
+		"/C/Users/mariano.castillo/Downloads/cart-magento-master/cart-magento-master/README.md",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/configuration.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/mercadopago_v6.php",
+		"/C/Users/mariano.castillo/Downloads/MERCADOPAGO/gateways/MercadoPago_Lib/mercadopago.php",
+		"/C/Users/mariano.castillo/Downloads/whmcs-mercadopago-bayresapp/gateways/callback/mercadopago.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/navbar.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/mercadopago 2.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/cacert.pem",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/navbar2.tpl",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/secondnav.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/navbar2.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/7zO515C.tmp/header.tpl",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/7zO1D62.tmp/navbar.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/7zOFC79.tmp/example.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/navbar.tpl",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/header.tpl",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/payments.tpl",
+		"/C/Users/mariano.castillo/Documents/nano/payments.tpl",
+		"/C/Users/mariano.castillo/Documents/nano/contact.tpl",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/cuentadigital_whmcs_2_1_08.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/payments.php",
+		"/C/Users/mariano.castillo/Downloads/cuentadigital-gateway/cuentadigital-gateway.php",
+		"/C/Users/mariano.castillo/Downloads/whmcs-cuentadigital/cuentadigital_whmcs_2_1_08.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/spanish.php",
+		"/C/Users/mariano.castillo/Desktop/products.tpl",
+		"/C/Users/mariano.castillo/Desktop/ordersummary.tpl",
+		"/C/Users/mariano.castillo/Documents/nano/ecommerce.tpl",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/ecommerce-hosting.html",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/mariano.castillo/Documents/nano/hosting.tpl",
+		"/C/xampp/htdocs/shared-hosting.html",
+		"/C/Users/mariano.castillo/Documents/nano/serverstatus.tpl",
+		"/C/Users/mariano.castillo/Desktop/algo.html",
+		"/C/Users/mariano.castillo/Desktop/LH44.textile",
+		"/C/Users/mariano.castillo/Desktop/autito/script.js",
+		"/C/Users/mariano.castillo/Desktop/autito/style.css",
+		"/C/Users/mariano.castillo/Desktop/autito/index.html",
+		"/C/Users/mariano.castillo/Downloads/Ftp mariano@segundabase.net.xml",
+		"/C/xampp/htdocs/css/style.css",
+		"/C/xampp/htdocs/index.html",
+		"/C/Users/mariano.castillo/Downloads/perl-5.24.0/INSTALL",
+		"/C/xampp/htdocs/wordpress-hosting.html",
+		"/C/Users/mariano.castillo/Documents/nano/wordpress.tpl",
+		"/C/Users/mariano.castillo/Documents/nano/homepage.tpl",
+		"/C/Users/mariano.castillo/Documents/nano/design.tpl",
+		"/C/Users/mariano.castillo/Documents/nano/wordpress.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/CartController.php",
+		"/C/xampp/htdocs/404.html",
+		"/C/xampp/htdocs/about.html",
+		"/C/xampp/htdocs/domains.html",
+		"/C/xampp/htdocs/ecommerce-hosting.html",
+		"/C/xampp/htdocs/terms.html",
+		"/C/xampp/htdocs/contact.html",
+		"/C/Users/mariano.castillo/Documents/nano/footer.tpl",
+		"/C/Users/mariano.castillo/Documents/nano/header.tpl",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/e-commerce.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/dl.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/hosting.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/design.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/styles.css",
+		"/C/Users/mariano.castillo/Documents/nano/css/styles.css",
+		"/C/Users/mariano.castillo/Documents/e-commerce.php",
+		"/C/Users/mariano.castillo/Documents/design.php",
+		"/C/Users/mariano.castillo/Documents/nano/hosting/hosting.php",
+		"/C/Users/mariano.castillo/Documents/nano/hosting/index.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/example.php",
+		"/C/Users/mariano.castillo/Documents/nano/includes/navbar.tpl",
+		"/C/Users/mariano.castillo/Documents/nano/includes/head.tpl",
+		"/C/xampp/htdocs/css/default_theme.css",
+		"/C/Users/mariano.castillo/Downloads/X-DATA - WMHCS & HTML Web Hosting Template/WHMCS Template/xdata/homepage.tpl",
+		"/C/Users/mariano.castillo/Documents/ProductPageView/ProductPageView.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/C/Users/mariano.castillo/Documents/homepage.tpl",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/english.php",
+		"/C/Users/mariano.castillo/Documents/ProductPageView/response.php",
+		"/C/Users/mariano.castillo/Documents/ProductPageView/hooks.php",
+		"/C/xampp/htdocs/README.md",
+		"/C/Users/mariano.castillo/Downloads/themeforest-9750650-panda-responsive-prestashop-theme/Documentation/index.html",
+		"/C/Users/mariano.castillo/Documents/products.tpl",
+		"/C/Users/mariano.castillo/Documents/checkout.tpl",
+		"/C/Users/mariano.castillo/Downloads/alysumv32/override/1.5.4.1/classes/Mail.php",
+		"/C/Users/mariano.castillo/Downloads/cooncookprestashop-30/themeinstaller/cooncook/Config.xml",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/settings.inc.php",
+		"/C/Users/mariano.castillo/Documents/BACKUPS/social/sql/social_wp.sql",
+		"/C/Users/mariano.castillo/Documents/BACKUPS/social/public_html/wp-config.php",
+		"/C/Users/mariano.castillo/Downloads/X-DATA - WMHCS & HTML Web Hosting Template/WHMCS Template/orderforms/xdata-standard/checkout.tpl",
+		"/C/Users/mariano.castillo/Documents/viewcart.tpl",
+		"/C/Users/mariano.castillo/Documents/BACKUPS/segunda/SQL/localhost.sql",
+		"/C/xampp/htdocs/js/plugins.js",
+		"/C/Users/mariano.castillo/Documents/2016-12-23/accounts/mariano/homedir/public_html/cdn/config/config.php",
+		"/C/Users/mariano.castillo/Documents/2016-12-23/accounts/mariano/homedir/public_html/demotienda/config/config.inc.php",
+		"/C/Users/mariano.castillo/Documents/2016-12-23/accounts/mariano/homedir/wordpress.segundabase.net/wp-config.php",
+		"/C/Users/mariano.castillo/Documents/2016-12-23/accounts/mariano/homedir/public_html/demotienda/config/settings.inc.php",
+		"/C/Program Files/Git/etc/hosts",
+		"/C/Users/mariano.castillo/Downloads/testsuites.xml",
+		"/C/Users/mariano.castillo/Desktop/Book1.xml",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/config.inc.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/custom_config.inc.php.example",
+		"/C/Users/mariano.castillo/Downloads/server.segundabase.net Configuración segura del correo electrónico.vbs",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/class.phpmailer.php",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/clientsemails.php",
+		"/C/Users/mariano.castillo/Downloads/X-DATA - WMHCS & HTML Web Hosting Template/Documentation/index.html",
+		"/C/Users/mariano.castillo/Downloads/footer.tpl",
+		"/C/Users/mariano.castillo/Desktop/footer.tpl",
+		"/C/Users/mariano.castillo/AppData/Local/Temp/fz3temp-1/plugins.js",
+		"/C/Users/mariano.castillo/Downloads/X-DATA - WMHCS & HTML Web Hosting Template/WHMCS Template/xdata/js/scripts.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"envio",
+			"navbar",
+			"primaryNavbar",
+			"personalnavbar",
+			"navbar",
+			"primaru",
+			"primary",
+			"\"de\"",
+			"de ",
+			"order",
+			"startingfrom",
+			"bread",
+			"c-pag",
+			"c-page",
+			"feature",
+			"c-page",
+			"sec-t",
+			"E-Commerce Hosting",
+			"h-plans",
+			"info@",
+			"info@segundabase.n",
+			"info@segundabase.net	",
+			"info@segundabase.net",
+			"breadcrumb",
+			"breadcumb",
+			"bread-title",
+			"breadcrumb",
+			"breadcrumb ec",
+			"mo ",
+			"mo   ",
+			"mo ",
+			"mo",
+			"price-area",
+			"product1-price",
+			"price-area",
+			"product1-price",
+			"accepttos",
+			"checkbox",
+			"accept",
+			"condition",
+			"tos",
+			"terms",
+			"mod_",
+			"pslk_",
+			"oc_",
+			"upload",
+			"limit",
+			"tl_import",
+			"bootstrap",
+			"services",
+			"client",
+			"tawk.to",
+			"powered by",
+			"grad1",
+			"ext-dom grad1",
+			"exten",
+			"menu-ser",
+			"contact",
+			"chat",
+			"tawk",
+			"area",
+			"error",
+			"false",
+			"dev",
+			"off",
+			"orderform",
+			"orderForm",
+			"domainLengthRequirements",
+			"orderForm",
+			"orderfor",
+			"orderfo",
+			"order",
+			"LINK",
+			"tienda",
+			"tiendas.html",
+			"orderform",
+			"domainavailable2",
+			"orderform",
+			"SEARCHIN",
+			"order",
+			"orders",
+			"order",
+			"orderform",
+			"$_LANG['domainIsUnavailable']= \"Dominio no disponible\";",
+			"domainIsUnavailable",
+			"domaindetails",
+			"lang",
+			"domain",
+			"look",
+			"check",
+			"domain",
+			"search",
+			"availa",
+			"domain",
+			"searching",
+			"searchin",
+			"cycle",
+			"mensual",
+			"startingat",
+			"month",
+			"mes ",
+			"mo ",
+			"mo",
+			">\n",
+			"tecno",
+			"loader",
+			"FIRST-pop	",
+			"FIRST-pop",
+			"FIRST-´POP",
+			"secon",
+			"first",
+			"second",
+			"popup",
+			"first",
+			"popup",
+			"nav",
+			"services",
+			"header",
+			"logo-menu",
+			"sentMessage",
+			"contactForm",
+			"search",
+			"searcr",
+			"top",
+			"search",
+			"disable",
+			"tamarindo",
+			"3"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"language",
+			"skill-list",
+			".skill-list",
+			"soft-list"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/mariano.castillo/Desktop/LH44.textile",
+					"settings":
+					{
+						"buffer_size": 3021,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1401,
+								1362
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Textile/Textile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 726.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true
+}
