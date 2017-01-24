@@ -17,8 +17,9 @@
 
 function request(method,url){
 	return new Promise(function (resolve,reject){
+		var q="javascript";
 		var xhr = new XMLHttpRequest();
-		xhr.open(method, url, true);
+		xhr.open(method, url+"?q="+q,true );
 		xhr.onload =function(){
 			if(this.readyState == 4 && this.status == 200){
 				resolve(xhr.response);
@@ -29,6 +30,8 @@ function request(method,url){
 					statusText : xhr.statusText
 
 				});
+				document.getElementById("principal").innerHTML="ERROR";
+				document.getElementById("principal").style.backgroundColor="red";
 			}
 		};
 		xhr.onerror =function (){
@@ -36,7 +39,8 @@ function request(method,url){
 				status: this.status,
 				statusText: xhr.statusText
 			});
-			document.getElementById("principal").style.backgroundColor="red"; //ESTA LINEA ME DA ERROR EN LA CONSOLA
+			document.getElementById("principal").innerHTML="ERROR";
+			document.getElementById("principal").style.backgroundColor="red"; 
 		};
 		xhr.send();
 	});
