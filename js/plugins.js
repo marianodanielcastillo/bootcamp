@@ -23,7 +23,7 @@ function request(method,url,search){
 		xhr.onload =function(){
 			if(this.readyState == 4 && this.status == 200){
 				resolve(xhr.response);
-				console.log(this.responseText);
+				respuesta=this.responseText;
 			}else{
 				reject({
 					status: this.status,
@@ -45,3 +45,4 @@ function request(method,url,search){
 		xhr.send();
 	});
 }
+
