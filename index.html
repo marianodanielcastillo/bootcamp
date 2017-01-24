@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<title></title>
 	<link rel="stylesheet" href="css/style.css">
-	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
 </head>
 <body>
@@ -13,7 +13,14 @@
 		<section class="text-hello" id="principal">
 			HELLO WORLD
 		</section>
-		<button class="btn btn-danger" onclick="request('GET','https://api.github.com/search/repositories')">BOTON</button>
+			
+			<form method="post" id="form1">
+				<h2>BUSCAR EN GITHUB</h2>
+				<input type="text" class="form-control" id="busq">
+				<input onclick="request('GET','https://api.github.com/search/repositories',this.form.busq.value)" type="button" value="ENVIAR" class="btn btn-danger">
+			</form>
+			
+
 	</div>
 	
 </body>

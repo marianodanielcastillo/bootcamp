@@ -15,9 +15,9 @@
   xhttp.send();
 }*/
 
-function request(method,url){
+function request(method,url,search){
 	return new Promise(function (resolve,reject){
-		var q="javascript";
+		var q=search;
 		var xhr = new XMLHttpRequest();
 		xhr.open(method, url+"?q="+q,true );
 		xhr.onload =function(){
