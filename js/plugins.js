@@ -27,6 +27,7 @@ function request(method,url){
 				reject({
 					status: this.status,
 					statusText : xhr.statusText
+
 				});
 			}
 		};
@@ -34,6 +35,7 @@ function request(method,url){
 			reject({
 				status: this.status,
 				statusText: xhr.statusText
+				document.getElementById("principal").style.background-color: red;
 
 			});
 		};
