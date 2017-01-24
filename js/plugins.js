@@ -23,7 +23,7 @@ function request(method,url){
 		xhr.onload =function(){
 			if(this.readyState == 4 && this.status == 200){
 				resolve(xhr.response);
-				document.getElementById("principal").innerHTML =this.responseText;
+				console.log(this.responseText);
 			}else{
 				reject({
 					status: this.status,
