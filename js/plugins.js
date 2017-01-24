@@ -35,9 +35,8 @@ function request(method,url){
 			reject({
 				status: this.status,
 				statusText: xhr.statusText
-				document.getElementById("principal").style.background-color: red; //ESTA LINEA ME DA ERROR EN LA CONSOLA
-
 			});
+			document.getElementById("principal").style.backgroundColor="red"; //ESTA LINEA ME DA ERROR EN LA CONSOLA
 		};
 		xhr.send();
 	});
