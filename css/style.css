@@ -8,6 +8,6 @@
 
 .text-hello{
 	background-color: #BBB5B5;
-	display: none;
+	/*display: none;*/
 	margin: 15%;
 }
