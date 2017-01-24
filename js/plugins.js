@@ -20,7 +20,7 @@ function request(method,url){
 		var xhr = new XMLHttpRequest();
 		xhr.open(method, url, true);
 		xhr.onload =function(){
-			if(this.status >=200 && this.status <=300){
+			if(this.readyState == 4 && this.status == 200){
 				resolve(xhr.response);
 				document.getElementById("principal").innerHTML =this.responseText;
 			}else{
